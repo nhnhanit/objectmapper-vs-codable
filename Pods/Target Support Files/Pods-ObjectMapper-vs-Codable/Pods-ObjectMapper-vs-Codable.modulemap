@@ -1,0 +1,6 @@
+framework module Pods_ObjectMapper_vs_Codable {
+  umbrella header "Pods-ObjectMapper-vs-Codable-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F17B249FEC5AF303C6397B0 /* libPods-ObjectMapper-vs-CodableUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E34332411E9F5E29E036F1E /* libPods-ObjectMapper-vs-CodableUITests.a */; };
+		2DD3CEC6915CC3C455DAD3FB /* Pods_ObjectMapper_vs_Codable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96293E26897B85AF3D8086F /* Pods_ObjectMapper_vs_Codable.framework */; };
+		470D60DA2564B4ED001C8F17 /* DataUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470D60D92564B4ED001C8F17 /* DataUtility.swift */; };
+		470D60E22564B5B3001C8F17 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470D60E12564B5B3001C8F17 /* BaseModel.swift */; };
+		470D60F02564C056001C8F17 /* MyJsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = 470D60EF2564C056001C8F17 /* MyJsonData.json */; };
+		4741541A2563C3D900E4FC99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474154192563C3D900E4FC99 /* AppDelegate.swift */; };
+		4741541C2563C3D900E4FC99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741541B2563C3D900E4FC99 /* SceneDelegate.swift */; };
+		4741541E2563C3D900E4FC99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741541D2563C3D900E4FC99 /* ViewController.swift */; };
+		474154212563C3D900E4FC99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4741541F2563C3D900E4FC99 /* Main.storyboard */; };
+		474154232563C3DB00E4FC99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474154222563C3DB00E4FC99 /* Assets.xcassets */; };
+		474154262563C3DB00E4FC99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474154242563C3DB00E4FC99 /* LaunchScreen.storyboard */; };
+		474154312563C3DB00E4FC99 /* ObjectMapper_vs_CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474154302563C3DB00E4FC99 /* ObjectMapper_vs_CodableTests.swift */; };
+		4741543C2563C3DB00E4FC99 /* ObjectMapper_vs_CodableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741543B2563C3DB00E4FC99 /* ObjectMapper_vs_CodableUITests.swift */; };
+		474154572563C77A00E4FC99 /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474154562563C77A00E4FC99 /* CustomerModel.swift */; };
+		4741545F2563C78900E4FC99 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741545E2563C78900E4FC99 /* AddressModel.swift */; };
+		474154642563C79500E4FC99 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474154632563C79500E4FC99 /* CompanyModel.swift */; };
+		474154692563C91400E4FC99 /* CustomerModelCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474154682563C91400E4FC99 /* CustomerModelCo.swift */; };
+		4741546E2563C92100E4FC99 /* AddressModelCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741546D2563C92100E4FC99 /* AddressModelCo.swift */; };
+		474154732563C92900E4FC99 /* CompanyModelCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474154722563C92900E4FC99 /* CompanyModelCo.swift */; };
+		47A6722A2564D3D9003668E0 /* BaseModelCo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A672292564D3D9003668E0 /* BaseModelCo.swift */; };
+		8FF52CD9AFA7245B2A495B8B /* libPods-ObjectMapper-vs-CodableTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A66A0D1F2F983ECCDD8626B7 /* libPods-ObjectMapper-vs-CodableTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4741542D2563C3DB00E4FC99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4741540E2563C3D900E4FC99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474154152563C3D900E4FC99;
+			remoteInfo = "ObjectMapper-vs-Codable";
+		};
+		474154382563C3DB00E4FC99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4741540E2563C3D900E4FC99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474154152563C3D900E4FC99;
+			remoteInfo = "ObjectMapper-vs-Codable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E71EC5F917142738522F158 /* Pods-ObjectMapper-vs-CodableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper-vs-CodableUITests.release.xcconfig"; path = "Target Support Files/Pods-ObjectMapper-vs-CodableUITests/Pods-ObjectMapper-vs-CodableUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1AE8F60391FBE12ACF8BA48A /* Pods-ObjectMapper-vs-CodableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper-vs-CodableTests.debug.xcconfig"; path = "Target Support Files/Pods-ObjectMapper-vs-CodableTests/Pods-ObjectMapper-vs-CodableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E34332411E9F5E29E036F1E /* libPods-ObjectMapper-vs-CodableUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjectMapper-vs-CodableUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB2E8D951120F4B675AF637 /* Pods-ObjectMapper-vs-Codable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper-vs-Codable.release.xcconfig"; path = "Target Support Files/Pods-ObjectMapper-vs-Codable/Pods-ObjectMapper-vs-Codable.release.xcconfig"; sourceTree = "<group>"; };
+		470D60D92564B4ED001C8F17 /* DataUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUtility.swift; sourceTree = "<group>"; };
+		470D60E12564B5B3001C8F17 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		470D60EF2564C056001C8F17 /* MyJsonData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MyJsonData.json; sourceTree = "<group>"; };
+		474154162563C3D900E4FC99 /* ObjectMapper-vs-Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectMapper-vs-Codable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		474154192563C3D900E4FC99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4741541B2563C3D900E4FC99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4741541D2563C3D900E4FC99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		474154202563C3D900E4FC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		474154222563C3DB00E4FC99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		474154252563C3DB00E4FC99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		474154272563C3DB00E4FC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4741542C2563C3DB00E4FC99 /* ObjectMapper-vs-CodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectMapper-vs-CodableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		474154302563C3DB00E4FC99 /* ObjectMapper_vs_CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper_vs_CodableTests.swift; sourceTree = "<group>"; };
+		474154322563C3DB00E4FC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474154372563C3DB00E4FC99 /* ObjectMapper-vs-CodableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectMapper-vs-CodableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4741543B2563C3DB00E4FC99 /* ObjectMapper_vs_CodableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapper_vs_CodableUITests.swift; sourceTree = "<group>"; };
+		4741543D2563C3DB00E4FC99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474154562563C77A00E4FC99 /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
+		4741545E2563C78900E4FC99 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
+		474154632563C79500E4FC99 /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		474154682563C91400E4FC99 /* CustomerModelCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModelCo.swift; sourceTree = "<group>"; };
+		4741546D2563C92100E4FC99 /* AddressModelCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModelCo.swift; sourceTree = "<group>"; };
+		474154722563C92900E4FC99 /* CompanyModelCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModelCo.swift; sourceTree = "<group>"; };
+		47A672292564D3D9003668E0 /* BaseModelCo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModelCo.swift; sourceTree = "<group>"; };
+		6F82608C6226E61A86FFA05F /* Pods-ObjectMapper-vs-CodableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper-vs-CodableTests.release.xcconfig"; path = "Target Support Files/Pods-ObjectMapper-vs-CodableTests/Pods-ObjectMapper-vs-CodableTests.release.xcconfig"; sourceTree = "<group>"; };
+		A013C9C699D5D4CB8FB03B7C /* Pods-ObjectMapper-vs-Codable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper-vs-Codable.debug.xcconfig"; path = "Target Support Files/Pods-ObjectMapper-vs-Codable/Pods-ObjectMapper-vs-Codable.debug.xcconfig"; sourceTree = "<group>"; };
+		A66A0D1F2F983ECCDD8626B7 /* libPods-ObjectMapper-vs-CodableTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjectMapper-vs-CodableTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57B7EDCEEE19DEF3E91F004 /* Pods-ObjectMapper-vs-CodableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper-vs-CodableUITests.debug.xcconfig"; path = "Target Support Files/Pods-ObjectMapper-vs-CodableUITests/Pods-ObjectMapper-vs-CodableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D96293E26897B85AF3D8086F /* Pods_ObjectMapper_vs_Codable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapper_vs_Codable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		474154132563C3D900E4FC99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD3CEC6915CC3C455DAD3FB /* Pods_ObjectMapper_vs_Codable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474154292563C3DB00E4FC99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF52CD9AFA7245B2A495B8B /* libPods-ObjectMapper-vs-CodableTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474154342563C3DB00E4FC99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F17B249FEC5AF303C6397B0 /* libPods-ObjectMapper-vs-CodableUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434B5FA4957ECF8AA414DAFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D96293E26897B85AF3D8086F /* Pods_ObjectMapper_vs_Codable.framework */,
+				A66A0D1F2F983ECCDD8626B7 /* libPods-ObjectMapper-vs-CodableTests.a */,
+				1E34332411E9F5E29E036F1E /* libPods-ObjectMapper-vs-CodableUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		470D60D82564B49C001C8F17 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				470D60D92564B4ED001C8F17 /* DataUtility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4741540D2563C3D900E4FC99 = {
+			isa = PBXGroup;
+			children = (
+				474154182563C3D900E4FC99 /* ObjectMapper-vs-Codable */,
+				4741542F2563C3DB00E4FC99 /* ObjectMapper-vs-CodableTests */,
+				4741543A2563C3DB00E4FC99 /* ObjectMapper-vs-CodableUITests */,
+				474154172563C3D900E4FC99 /* Products */,
+				DA1A884A827F1B55F910F2C3 /* Pods */,
+				434B5FA4957ECF8AA414DAFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		474154172563C3D900E4FC99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				474154162563C3D900E4FC99 /* ObjectMapper-vs-Codable.app */,
+				4741542C2563C3DB00E4FC99 /* ObjectMapper-vs-CodableTests.xctest */,
+				474154372563C3DB00E4FC99 /* ObjectMapper-vs-CodableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		474154182563C3D900E4FC99 /* ObjectMapper-vs-Codable */ = {
+			isa = PBXGroup;
+			children = (
+				470D60D82564B49C001C8F17 /* Utilities */,
+				474154552563C66F00E4FC99 /* Resources */,
+				474154542563C65B00E4FC99 /* CodableModels */,
+				474154532563C65100E4FC99 /* ObjectMapperModels */,
+				474154192563C3D900E4FC99 /* AppDelegate.swift */,
+				4741541B2563C3D900E4FC99 /* SceneDelegate.swift */,
+				4741541D2563C3D900E4FC99 /* ViewController.swift */,
+				4741541F2563C3D900E4FC99 /* Main.storyboard */,
+				474154222563C3DB00E4FC99 /* Assets.xcassets */,
+				474154242563C3DB00E4FC99 /* LaunchScreen.storyboard */,
+				474154272563C3DB00E4FC99 /* Info.plist */,
+			);
+			path = "ObjectMapper-vs-Codable";
+			sourceTree = "<group>";
+		};
+		4741542F2563C3DB00E4FC99 /* ObjectMapper-vs-CodableTests */ = {
+			isa = PBXGroup;
+			children = (
+				474154302563C3DB00E4FC99 /* ObjectMapper_vs_CodableTests.swift */,
+				474154322563C3DB00E4FC99 /* Info.plist */,
+			);
+			path = "ObjectMapper-vs-CodableTests";
+			sourceTree = "<group>";
+		};
+		4741543A2563C3DB00E4FC99 /* ObjectMapper-vs-CodableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4741543B2563C3DB00E4FC99 /* ObjectMapper_vs_CodableUITests.swift */,
+				4741543D2563C3DB00E4FC99 /* Info.plist */,
+			);
+			path = "ObjectMapper-vs-CodableUITests";
+			sourceTree = "<group>";
+		};
+		474154532563C65100E4FC99 /* ObjectMapperModels */ = {
+			isa = PBXGroup;
+			children = (
+				470D60E12564B5B3001C8F17 /* BaseModel.swift */,
+				474154562563C77A00E4FC99 /* CustomerModel.swift */,
+				4741545E2563C78900E4FC99 /* AddressModel.swift */,
+				474154632563C79500E4FC99 /* CompanyModel.swift */,
+			);
+			path = ObjectMapperModels;
+			sourceTree = "<group>";
+		};
+		474154542563C65B00E4FC99 /* CodableModels */ = {
+			isa = PBXGroup;
+			children = (
+				47A672292564D3D9003668E0 /* BaseModelCo.swift */,
+				474154682563C91400E4FC99 /* CustomerModelCo.swift */,
+				474154722563C92900E4FC99 /* CompanyModelCo.swift */,
+				4741546D2563C92100E4FC99 /* AddressModelCo.swift */,
+			);
+			path = CodableModels;
+			sourceTree = "<group>";
+		};
+		474154552563C66F00E4FC99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				470D60EF2564C056001C8F17 /* MyJsonData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA1A884A827F1B55F910F2C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A013C9C699D5D4CB8FB03B7C /* Pods-ObjectMapper-vs-Codable.debug.xcconfig */,
+				3AB2E8D951120F4B675AF637 /* Pods-ObjectMapper-vs-Codable.release.xcconfig */,
+				1AE8F60391FBE12ACF8BA48A /* Pods-ObjectMapper-vs-CodableTests.debug.xcconfig */,
+				6F82608C6226E61A86FFA05F /* Pods-ObjectMapper-vs-CodableTests.release.xcconfig */,
+				C57B7EDCEEE19DEF3E91F004 /* Pods-ObjectMapper-vs-CodableUITests.debug.xcconfig */,
+				0E71EC5F917142738522F158 /* Pods-ObjectMapper-vs-CodableUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		474154152563C3D900E4FC99 /* ObjectMapper-vs-Codable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474154402563C3DB00E4FC99 /* Build configuration list for PBXNativeTarget "ObjectMapper-vs-Codable" */;
+			buildPhases = (
+				EE476A5CABF42A351E1B5BAA /* [CP] Check Pods Manifest.lock */,
+				474154122563C3D900E4FC99 /* Sources */,
+				474154132563C3D900E4FC99 /* Frameworks */,
+				474154142563C3D900E4FC99 /* Resources */,
+				C39590732E0D6667F3BA4D46 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjectMapper-vs-Codable";
+			productName = "ObjectMapper-vs-Codable";
+			productReference = 474154162563C3D900E4FC99 /* ObjectMapper-vs-Codable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4741542B2563C3DB00E4FC99 /* ObjectMapper-vs-CodableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474154432563C3DB00E4FC99 /* Build configuration list for PBXNativeTarget "ObjectMapper-vs-CodableTests" */;
+			buildPhases = (
+				5D607135BB62BC159B9C514A /* [CP] Check Pods Manifest.lock */,
+				474154282563C3DB00E4FC99 /* Sources */,
+				474154292563C3DB00E4FC99 /* Frameworks */,
+				4741542A2563C3DB00E4FC99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4741542E2563C3DB00E4FC99 /* PBXTargetDependency */,
+			);
+			name = "ObjectMapper-vs-CodableTests";
+			productName = "ObjectMapper-vs-CodableTests";
+			productReference = 4741542C2563C3DB00E4FC99 /* ObjectMapper-vs-CodableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		474154362563C3DB00E4FC99 /* ObjectMapper-vs-CodableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474154462563C3DB00E4FC99 /* Build configuration list for PBXNativeTarget "ObjectMapper-vs-CodableUITests" */;
+			buildPhases = (
+				6299D4B8DD2BCC746BEBBF05 /* [CP] Check Pods Manifest.lock */,
+				474154332563C3DB00E4FC99 /* Sources */,
+				474154342563C3DB00E4FC99 /* Frameworks */,
+				474154352563C3DB00E4FC99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				474154392563C3DB00E4FC99 /* PBXTargetDependency */,
+			);
+			name = "ObjectMapper-vs-CodableUITests";
+			productName = "ObjectMapper-vs-CodableUITests";
+			productReference = 474154372563C3DB00E4FC99 /* ObjectMapper-vs-CodableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4741540E2563C3D900E4FC99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					474154152563C3D900E4FC99 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					4741542B2563C3DB00E4FC99 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 474154152563C3D900E4FC99;
+					};
+					474154362563C3DB00E4FC99 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 474154152563C3D900E4FC99;
+					};
+				};
+			};
+			buildConfigurationList = 474154112563C3D900E4FC99 /* Build configuration list for PBXProject "ObjectMapper-vs-Codable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4741540D2563C3D900E4FC99;
+			productRefGroup = 474154172563C3D900E4FC99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				474154152563C3D900E4FC99 /* ObjectMapper-vs-Codable */,
+				4741542B2563C3DB00E4FC99 /* ObjectMapper-vs-CodableTests */,
+				474154362563C3DB00E4FC99 /* ObjectMapper-vs-CodableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		474154142563C3D900E4FC99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474154262563C3DB00E4FC99 /* LaunchScreen.storyboard in Resources */,
+				470D60F02564C056001C8F17 /* MyJsonData.json in Resources */,
+				474154232563C3DB00E4FC99 /* Assets.xcassets in Resources */,
+				474154212563C3D900E4FC99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4741542A2563C3DB00E4FC99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474154352563C3DB00E4FC99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D607135BB62BC159B9C514A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectMapper-vs-CodableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6299D4B8DD2BCC746BEBBF05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectMapper-vs-CodableUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39590732E0D6667F3BA4D46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectMapper-vs-Codable/Pods-ObjectMapper-vs-Codable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectMapper-vs-Codable/Pods-ObjectMapper-vs-Codable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjectMapper-vs-Codable/Pods-ObjectMapper-vs-Codable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE476A5CABF42A351E1B5BAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectMapper-vs-Codable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		474154122563C3D900E4FC99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470D60DA2564B4ED001C8F17 /* DataUtility.swift in Sources */,
+				4741541E2563C3D900E4FC99 /* ViewController.swift in Sources */,
+				470D60E22564B5B3001C8F17 /* BaseModel.swift in Sources */,
+				4741541A2563C3D900E4FC99 /* AppDelegate.swift in Sources */,
+				4741546E2563C92100E4FC99 /* AddressModelCo.swift in Sources */,
+				4741541C2563C3D900E4FC99 /* SceneDelegate.swift in Sources */,
+				47A6722A2564D3D9003668E0 /* BaseModelCo.swift in Sources */,
+				474154572563C77A00E4FC99 /* CustomerModel.swift in Sources */,
+				4741545F2563C78900E4FC99 /* AddressModel.swift in Sources */,
+				474154642563C79500E4FC99 /* CompanyModel.swift in Sources */,
+				474154732563C92900E4FC99 /* CompanyModelCo.swift in Sources */,
+				474154692563C91400E4FC99 /* CustomerModelCo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474154282563C3DB00E4FC99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474154312563C3DB00E4FC99 /* ObjectMapper_vs_CodableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474154332563C3DB00E4FC99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4741543C2563C3DB00E4FC99 /* ObjectMapper_vs_CodableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4741542E2563C3DB00E4FC99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 474154152563C3D900E4FC99 /* ObjectMapper-vs-Codable */;
+			targetProxy = 4741542D2563C3DB00E4FC99 /* PBXContainerItemProxy */;
+		};
+		474154392563C3DB00E4FC99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 474154152563C3D900E4FC99 /* ObjectMapper-vs-Codable */;
+			targetProxy = 474154382563C3DB00E4FC99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4741541F2563C3D900E4FC99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474154202563C3D900E4FC99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		474154242563C3DB00E4FC99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474154252563C3DB00E4FC99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4741543E2563C3DB00E4FC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4741543F2563C3DB00E4FC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		474154412563C3DB00E4FC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A013C9C699D5D4CB8FB03B7C /* Pods-ObjectMapper-vs-Codable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectMapper-vs-Codable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.ObjectMapper-vs-Codable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		474154422563C3DB00E4FC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB2E8D951120F4B675AF637 /* Pods-ObjectMapper-vs-Codable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectMapper-vs-Codable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.ObjectMapper-vs-Codable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		474154442563C3DB00E4FC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE8F60391FBE12ACF8BA48A /* Pods-ObjectMapper-vs-CodableTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectMapper-vs-CodableTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.ObjectMapper-vs-CodableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectMapper-vs-Codable.app/ObjectMapper-vs-Codable";
+			};
+			name = Debug;
+		};
+		474154452563C3DB00E4FC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F82608C6226E61A86FFA05F /* Pods-ObjectMapper-vs-CodableTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectMapper-vs-CodableTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.ObjectMapper-vs-CodableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectMapper-vs-Codable.app/ObjectMapper-vs-Codable";
+			};
+			name = Release;
+		};
+		474154472563C3DB00E4FC99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57B7EDCEEE19DEF3E91F004 /* Pods-ObjectMapper-vs-CodableUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectMapper-vs-CodableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.ObjectMapper-vs-CodableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ObjectMapper-vs-Codable";
+			};
+			name = Debug;
+		};
+		474154482563C3DB00E4FC99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E71EC5F917142738522F158 /* Pods-ObjectMapper-vs-CodableUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectMapper-vs-CodableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "stageit.ObjectMapper-vs-CodableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ObjectMapper-vs-Codable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		474154112563C3D900E4FC99 /* Build configuration list for PBXProject "ObjectMapper-vs-Codable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4741543E2563C3DB00E4FC99 /* Debug */,
+				4741543F2563C3DB00E4FC99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474154402563C3DB00E4FC99 /* Build configuration list for PBXNativeTarget "ObjectMapper-vs-Codable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474154412563C3DB00E4FC99 /* Debug */,
+				474154422563C3DB00E4FC99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474154432563C3DB00E4FC99 /* Build configuration list for PBXNativeTarget "ObjectMapper-vs-CodableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474154442563C3DB00E4FC99 /* Debug */,
+				474154452563C3DB00E4FC99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474154462563C3DB00E4FC99 /* Build configuration list for PBXNativeTarget "ObjectMapper-vs-CodableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474154472563C3DB00E4FC99 /* Debug */,
+				474154482563C3DB00E4FC99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4741540E2563C3D900E4FC99 /* Project object */;
+}

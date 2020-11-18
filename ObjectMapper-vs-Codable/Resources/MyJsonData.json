@@ -1,0 +1,13 @@
+{
+  "id": "123abc",
+  "name": "Sonic",
+  "address": {
+    "street": "345a Hoang Van Thu",
+    "zipcodeForAddress": "70000",
+    "city": "Ho Chi Minh",
+  },
+  "company": {
+    "name": "StageIT",
+    "catchPhrase": "acb"
+  }
+}
